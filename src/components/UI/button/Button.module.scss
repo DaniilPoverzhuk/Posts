@@ -1,0 +1,22 @@
+.button {
+  width: 25%;
+  min-width: 200px;
+  height: 40px;
+  cursor: pointer;
+
+  background: linear-gradient(45deg, #6224e4, #b300cc, #e100b2, #ff189a);
+  border-radius: 15px;
+  color: #fff;
+  font-weight: 500;
+
+  transition: 0.4s;
+
+  &:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+  }
+}
+
+button {
+  cursor: pointer;
+}
